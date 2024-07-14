@@ -170,6 +170,7 @@ public class VendingMachine {
                 default:
                     System.out.println("Invalid choice. Please try again.");
             }
+
             System.out.println("Press Enter to return to the main menu.");
             scanner.nextLine(); // wait for Enter key press
         }
